@@ -1,0 +1,74 @@
+*{
+    margin: auto;
+    padding: auto;
+    
+}
+
+.body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    
+   
+}
+
+.formulaire{
+   max-width: 1000px;
+   width: 100%;
+   background: #FFF;
+   height: 700px;
+   padding: 25px 30px;
+   text-align: center;
+   border-radius: 7px;   
+   margin-top: 20px;
+   margin-bottom: 10px;
+ 
+ }
+
+ .champ{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+ }
+
+ .pourleschamps{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 30px);
+ }
+
+ .champs {
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 30px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+ }
+
+ .button{
+    width: 100px;
+    /*text-align: center;*/
+    background: rgba(28, 114, 7, 0.678) !important;
+    height: 30px;
+    color: #FFF;
+ }
+
+.champs{
+    
+        font-weight: 500;
+        margin-bottom: 5px;
+        display: block;
+ }
+ .champ .pourleschamps input:focus,
+.champs .pourleschamps :valid{
+   border-color: #9b59b6;
+   
+}
+ 

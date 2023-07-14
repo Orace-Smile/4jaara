@@ -1,0 +1,59 @@
+/*
+This code is for auhentification css code
+*/
+h1{
+    text-align: center;
+    color: #f25c5e;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10%;
+    padding: auto;
+}
+
+#generate_password {
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-color: #96dff5ee;
+}
+#generate_password :hover {
+    border-color: #96dff5ee;
+}
+
+#button {
+    background-image: linear-gradient(to right, #d14558,#ecc02e);
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    border-color: #96dff5ee;
+}
+
+#button :hover {
+    background-color: #0a9916;
+}
+
+.principale {
+    background-color:#fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 4px;
+    height: 400px;
+    border-color: #fff;
+    padding-top: 50px;
+
+}
+
+body{
+    background-color: #4c6bf3ee;
+}

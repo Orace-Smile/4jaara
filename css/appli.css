@@ -1,0 +1,13 @@
+.mot_bienvenue{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #753e27 !important;
+    font-weight: 650;
+}
+body{
+    background-color: #e3f2fd;
+}

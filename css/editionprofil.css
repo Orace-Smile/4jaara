@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7fffd4 !important;
+}
+
+.champs {
+    height: 45px;
+    width: 300px;
+    border-radius: 4px;
+    border-color: none;
+    margin-bottom: 10px;
+}
+
+.content{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+
+
+.btn_confirm {
+    background-color: #066e17;
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    border-color: none;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold ;
+}
